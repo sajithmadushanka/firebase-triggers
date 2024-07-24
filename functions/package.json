@@ -12,10 +12,13 @@
   "engines": {
     "node": "18"
   },
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
     "firebase-admin": "^12.1.0",
-    "firebase-functions": "^5.0.0"
+    "firebase-functions": "^5.0.0",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
